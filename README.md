@@ -17,6 +17,29 @@ New user Register
 ![image](https://user-images.githubusercontent.com/51504166/120094812-2eaba280-c140-11eb-9f50-0eed125e046c.png)
 
 Real Time Chat window
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/51504166/120094966-e771e180-c140-11eb-9303-379f52b7be5d.png)
 
 
