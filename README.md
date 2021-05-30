@@ -11,16 +11,14 @@ I have build complete Front end part using React.js and for Backened i have used
 MongoDb database is used to store the information for the users.
 
 Sign In & Sign-up Page
-![image](https://user-images.githubusercontent.com/51504166/120090243-9fda5e00-c11e-11eb-8812-11aedb2fc757.png)
+![image](https://user-images.githubusercontent.com/51504166/120094779-0de34d00-c140-11eb-9728-322a83cc95ce.png)
 
 New user Register
-![image](https://user-images.githubusercontent.com/51504166/120090299-f5af0600-c11e-11eb-8af2-389695a8f534.png)
+![image](https://user-images.githubusercontent.com/51504166/120094812-2eaba280-c140-11eb-9f50-0eed125e046c.png)
 
 Real Time Chat window
-![image](https://user-images.githubusercontent.com/51504166/120090384-a5847380-c11f-11eb-9e0f-8505dec49a3e.png)
+![image](https://user-images.githubusercontent.com/51504166/120094755-ebe9ca80-c13f-11eb-82ac-273eb7970cef.png)
 
-Chat Window 2
-![image](https://user-images.githubusercontent.com/51504166/120090518-e03adb80-c120-11eb-8fcf-a897db9e3120.png)
 
 
 
