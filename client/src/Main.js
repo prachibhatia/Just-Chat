@@ -3,7 +3,7 @@ import React from 'react'
 const Main = () => {
     return (
         <div className="chat-main">
-         <div className="chat-messages">
+            <div className="chat-messages">
           </div>
           <div className="chat-sidebar">
             <h3>Room :</h3>
