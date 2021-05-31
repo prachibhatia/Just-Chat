@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const bodyParser = require('body-parser')
 const app = express();
+const bcrypt = require('bcrypt')
 
 
 // create application/json parser
@@ -20,8 +21,9 @@ router.post('/login',jsonParser,async (req,res)=>{
         const user = await User.find({username:username});
         if(user)
         {
-        if(password==user[0].password){
-        res.json({msg:'You are logged in'})
+        const validpwd = await bcrypt.compare(password,user[0].password);
+        if(validpwd){
+        res.json({msg:'You are logged in'});
         }
         else{
         res.json({msg:'Wrong password ! Try again'})
@@ -40,7 +42,10 @@ router.post('/register', jsonParser,async (req , res) => {
     const { username, password } = req.body;
 
     user.username = username;
-    user.password = password;
+    const salt = await bcrypt.genSalt(10);
+    // now we set user password to hashed password
+    user.password = await bcrypt.hash(password, salt);
+
     user.save().then(users=>res.json(users));
 })
 

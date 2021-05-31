@@ -13,6 +13,7 @@
   "author": "Prachi Bhatia",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
     "concurrently": "^6.2.0",
     "create-react-app": "^4.0.3",
